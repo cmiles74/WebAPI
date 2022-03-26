@@ -30,6 +30,6 @@ jobs:
       - name: Publish Release Package to NuGet
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: src/Nervestaple.WebAPpi.csproj
+          PROJECT_FILE_PATH: src/Nervestaple.WebApi.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           TAG_COMMIT: false
