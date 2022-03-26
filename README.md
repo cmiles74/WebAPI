@@ -1,8 +1,13 @@
+![Continuous Integration](https://github.com/cmiles74/WebApi/actions/workflows/ci.yml/badge.svg)
+
 # Nervestaple.WebAPI
 
 This library leverages the [Nervestaple.WebService][0] project and 
 [Microsoft's WebAPI library][2] to make it way easy to build out RESTful web 
-services.
+services. It's available on [NuGet.org][3], you may follow the direction on
+that page to add it to your project.
+
+* [Nervestaple.WebApi NuGet Package][3]
 
 ```cs
 [ApiVersion("1.0")]
@@ -64,7 +69,7 @@ objects.
 You may use our startup helper classes to make it easier to get Swagger and
 Swashbuckle configured for your application.
 
-```css
+```cs
 public class Startup {
 
   ...
@@ -97,10 +102,10 @@ Also note that you need to provide a path to your generated XML documentation
  to provide better API documentation. If you aren't using XML comments... 
  Well, you better start!
  
-The last piece of the puzzle is to all out to the helper class in the 
+The last piece of the puzzle is to call out to the helper class in the 
 `Configure` method of your `Startup.cs` file.
 
-```css
+```cs
 public void Configure(
             IConfiguration configuration,
             IApplicationBuilder app, 
@@ -198,3 +203,4 @@ Project Icon made by [Freepik](https://www.freepik.com/) from
 [0]: https://github.com/cmiles74/WebService
 [1]: https://docs.microsoft.com/en-us/aspnet/core/web-api/jsonpatch
 [2]: https://docs.microsoft.com/en-us/aspnet/core/web-api/
+[3]: https://www.nuget.org/packages/Nervestaple.WebApi/
