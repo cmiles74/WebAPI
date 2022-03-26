@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>Nervestaple.WebApi</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.9.2-rc</Version>
+    <Version>0.9.2</Version>
     <Company>Nervestaple Development</Company>
     <Product>Nervestaple.WebApi</Product>
     <Description>Wraps Nervestaple.WebService to help create RESTful web services</Description>
